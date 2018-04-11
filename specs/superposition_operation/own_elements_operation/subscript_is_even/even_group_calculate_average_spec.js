@@ -8,7 +8,7 @@ describe('even_group_calculate_average', function() {
 
   it('首先选出所有第偶数个元素，然后选出其中的偶数，按几位数分组，并计算每组的平均数', function() {
     var result = even_group_calculate_average(collection_a);
-    expect(result).toEqual([4, 56, 556]);
+    expect(result).toEqual([4, 556, 56]);
   });
 
   it('首先选出所有第偶数个元素，当不含有偶数时', function() {

@@ -6,7 +6,7 @@ describe('get_union', function () {
 
   var collection_a = [10, 27, 28, 19, 5];
   var collection_b = [5, 78, 28, 19, 23];
-  var collection_c = [10, 27, 28, 19, 5, 78, 23];
+  var collection_c = [10, 5, 78, 28, 19, 23, 27];
 
   it('弹出两个集合的并集', function() {
 
